@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      
+      <!-- Bed -->
+      <a-box position="4 0.25 -6.5" width="2" height="0.5" depth="1" color="#654321"></a-box> <!-- Bed frame -->
+      <a-box position="4 0.64 -6.5" width="2" height="0.25" depth="0.9" color="#FFFFFF"></a-box> <!-- Mattress -->
+      <a-box position="4.6 0.76 -6.49" width="0.6" height="0.15" depth="0.7" color="#F5F5DC"></a-box> <!-- Pillow -->
+
+      <!-- Nightstand -->
+      <a-box position="4.74 0.25 -4.5" width="0.5" height="0.5" depth="0.9" color="#654321"></a-box>
+      
+      <!-- Lamp on Nightstand -->
+      <a-cylinder position="4.7 0.75 -4.5" radius="0.05" height="0.5" color="#FFFFFF"></a-cylinder>
+      <a-cone position="4.7 1.0 -4.5" radius-bottom="0.2" radius-top="0.05" height="0.3" color="#FFD700"></a-cone>
+
+      <!-- Rug -->
+      <a-circle position="0.5 0.1 -2.4" radius="1" color="#4B5320" depth="1" rotation="-90 0 0"></a-circle>
+
+      <!-- Circular Table -->
+      <a-cylinder position="0.5 0.7 -2.4" radius="0.75" height="0.1" color="#654321"></a-cylinder> <!-- Table top -->
+      <a-cylinder position="0.5 0.4 -2.4" radius="0.05" height="0.5" color="#654321"></a-cylinder> <!-- Table leg -->
+
+      <!-- Potted Plant -->
+      <a-cylinder position="0.5 0.9 -2.4" radius="0.1" height="0.15" color="#8B4513"></a-cylinder> <!-- Pot -->
+      <a-sphere position="0.5 1 -2.4" radius="0.1" color="#228B22"></a-sphere> <!-- Plant -->
+      <a-sphere position="0.5 1.1 -2.4" radius="0.1" color="#228B22"></a-sphere> <!-- Plant 2 -->
+
+      <!-- Wardrobe -->
+      <a-box position="1 1 -6.67" width="1.5" height="2.4" depth="0.5" color="#654321"></a-box> <!-- Wardrobe body -->
+      <a-box position="1 1 -6.67" width="0.05" height="2.4" depth="0.51" color="#000000"></a-box> <!-- Door line -->
+      <a-sphere position="1.25 1.2 -6.4" radius="0.05" color="#000000"></a-sphere> <!-- Left handle -->
+      <a-sphere position="0.75 1.2 -6.4" radius="0.05" color="#000000"></a-sphere> <!-- Right handle -->
+
+      <!-- Desk -->
+      <a-box position="4.5 0.35 -2.2" width="1" height="0.1" depth="1.8" color="#654321"></a-box> <!-- Desk top -->
+
+      <!-- Laptop -->
+      <a-box position="4.7 0.4 -2.2" width="0.4" height="0.02" depth="0.6" color="#000000"></a-box> <!-- Laptop base -->
+      <a-box position="4.89 0.5 -2.2" width="0.02" height="0.4" depth="0.6" color="#000000"></a-box> <!-- Laptop screen -->
+
+      <!-- Chair -->
+      <a-box position="3.75 0.15 -2.2" width="0.6" height="0.1" depth="0.4" color="#4C5762"></a-box> <!-- Seat -->
+      <a-box position="3.5 0.4 -2.2" width="0.1" height="0.5" depth="0.4" color="#4C5762"></a-box> <!-- Backrest -->
+      <a-box position="3.75 0 -2.2" width="0.1" height="0.3" depth="0.1" color="#4C5762"></a-box> <!-- Leg -->
+
+      <!-- Walls -->
+      <a-plane position="2 2 -7" rotation="0 0 0" width="6" height="4" color="#808080"></a-plane>
+      <a-plane position="5 2 -4" rotation="0 -90 0" width="6" height="4" color="#2F4F4F"></a-plane>
+      <a-plane position="2 0 -4" rotation="-90 0 0" width="6" height="6" color="#778899"></a-plane>
+
+      <!-- Window -->
+      <a-box position="5 2 -4" rotation="0 90 0" width="2.5" height="1.15" depth="0.1" color="#87CEEB"></a-box> 
+
+      <!-- Pumpkin -->
+      <a-sphere position="1 2.4 -6.67" radius="0.2" color="#FF7F50"></a-sphere> <!-- Pumpkin body -->
+      <a-cylinder position="1 2.6 -6.67" radius="0.05" height="0.1" color="#8B4513" rotation="90 0 0"></a-cylinder> <!-- Pumpkin stem -->
+
+      <!-- Sky -->
+      <a-sky color="#AAAAAA"></a-sky>
+
+      <!-- Bigger Potted Plant -->
+      <a-cylinder position="0 0.2 -6.65" radius="0.15" height="0.4" color="#8B4513"></a-cylinder> <!-- Pot -->
+      <a-sphere position="0 0.6 -6.65" radius="0.2" color="#228B22"></a-sphere> <!-- Plant -->
+      <a-sphere position="0 0.9 -6.65" radius="0.15" color="#228B22"></a-sphere> <!-- Plant 2 -->
+      <a-sphere position="0 1.1 -6.65" radius="0.1" color="#228B22"></a-sphere> <!-- Plant 3 -->
+
+      <!-- Light Fixture Above the Bed -->
+      <a-box position="3.2 1.8 -6.9" rotation="0 90 0" width="0.1" height="0.1" depth="1.4" color="#FFD700"></a-box> 
+
+    </a-scene>
+  </body>
+</html>
